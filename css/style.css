@@ -6,6 +6,8 @@ http://www.tooplate.com/view/2076-zentro
 
 */
 
+
+
 body
 	{
 		background: #ffffff;
@@ -19,6 +21,7 @@ body
 .heading {
   font-size: 22px;
   font-weight: 500;
+	/*font-family: "LucidaHandwritingItalic";*/
 }
 
 .subheading {
@@ -142,6 +145,15 @@ hr {
   height: 100vh;
   text-align: center;
 }
+
+/*background-image: url(../images/home-bg.png);
+
+@media (min-width: 480px) {
+    background-image: url(../images/home-bg.png);
+}*/
+
+
+
 #home h1 {
   font-size: 20px;
   letter-spacing: 8px;
@@ -193,14 +205,46 @@ hr {
 #menu h4 {
 	line-height: 0.8;
 }
+#menu h5 {
+	color: #5C5C5C;
+	line-height: 0.3;
+}
 #menu .col-md-8 {
   padding-bottom: 42px;
 }
 #menu .col-md-6 {
   padding-bottom: 18px;
 }
+#menu .title {
+	text-align:left; 
+}
+
 #menu span {
   color: #5C5C5C;
+}
+#menu dl {
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	width: 100%;
+	overflow: hidden;
+	padding: 10px;
+	margin: 0;
+}
+#menu dt {
+	float: left;
+	width: 15%;
+	padding: 0;
+	margin: 0;
+}
+#menu dd {
+	margin-bottom: 15px;
+	float: left;
+	width: 85%;
+}
+#menu li{
+	font-size: 25px;
+	font-weight: 300;
 }
 
 
